@@ -1,0 +1,254 @@
+.pokeCard{
+    text-align: center;
+    background-color: white;
+    border: 10px solid #000;
+    border-radius: 10px;
+    width: min(300px, 100%);
+    margin: 10px;
+    cursor: pointer;
+    transition: 300ms transform ease;
+}
+.pokeCard:hover{
+    transform: scale(1.02);
+}
+.pokeCard_header{
+    transform: translate(-1px,-1px);
+    width: 101%;
+    height: 170px;
+    
+}
+.pokeCard_content{
+    position: relative;
+}
+.pokeCard_img{
+    position: absolute;
+    padding: 15px 30px;
+    top: 0;
+    transform: translateY(-77%);
+}
+.pokeCard_name{
+    padding-top: 30px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.pokeCard_types{
+    margin: 4px 0;
+}
+.pokeCard_types-title{
+    color: #9f9f9f;
+    font-size: 15px;
+    margin-top: 0;
+}
+.pokeCard_types{
+    text-transform: capitalize;
+}
+.pokeCard_stats{
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.pokeCard_stat{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px; 
+    padding: .5rem;
+}
+.pokeCard_stat-name{
+    margin: 0;
+    color: #093916;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.pokeCard_stat-value{
+    margin: 0;   
+}
+
+/* styles type */
+
+.border-normal{
+    border: 10px solid #735259;
+}
+.border-fighting{
+    border: 10px solid #96402A;
+}
+.border-flying{
+    border: 10px solid #beb14c;
+}
+.border-poison{
+    border: 10px solid #5b3184;
+}
+.border-ground{
+    border: 10px solid #654008;
+}
+.border-rock{
+    border: 10px solid #7e7e7e;
+}
+.border-bug{
+    border: 10px solid #e74444;
+}
+.border-ghost{
+    border: 10px solid #323569;
+}
+.border-steel{
+    border: 10px solid #5e736c;
+}
+.border-fire{
+    border: 10px solid #d71c20;
+}
+.border-water{
+    border: 10px solid #07428c;
+}
+.border-grass{
+    border: 10px solid #a2d4ab;
+}
+.border-electric{
+    border: 10px solid #0c1395;
+}
+.border-psychic{
+    border: 10px solid #e52d2d;
+}
+.border-ice{
+    border: 10px solid #6fbedf;
+}
+.border-dragon{
+    border: 10px solid #478A93;
+}
+.border-dark{
+    border: 10px solid #030706;
+}
+.border-fairy{
+    border: 10px solid #971B45;
+}
+.border-unknown{
+    border: 10px solid #696767;
+}
+.border-shadow{
+    border: 10px solid #6c31a3;
+}
+
+/* styles of poke header */
+
+.pokeCard_header_border-normal{
+    background: linear-gradient(180deg, #735259, #cb7e8f);
+}
+.pokeCard_header_border-fighting{
+    background: linear-gradient(180deg, #96402A, #e97153);
+}
+.pokeCard_header_border-flying{
+    background: linear-gradient(180deg, #beb14c, #e9d543);
+}
+.pokeCard_header_border-poison{
+    background: linear-gradient(180deg, #5b3184, #884dc3);
+}
+.pokeCard_header_border-ground{
+    background: linear-gradient(180deg, #654008, #a86a0f);
+}
+.pokeCard_header_border-rock{
+    background: linear-gradient(180deg, #7e7e7e, #9e9d9d);
+}
+.pokeCard_header_border-bug{
+    background: linear-gradient(180deg, #ec5959, #bb5d5d);
+}
+.pokeCard_header_border-ghost{
+    background: linear-gradient(180deg, #323569, #5f629f);
+}
+.pokeCard_header_border-steel{
+    background: linear-gradient(180deg, #5e736c, #a7cbbf);
+}
+.pokeCard_header_border-fire{
+    background: linear-gradient(180deg, #d71c20 , #df7410);
+}
+.pokeCard_header_border-water{
+    background: linear-gradient(180deg, #133258, #8da7c5);
+}
+.pokeCard_header_border-grass{
+    background: linear-gradient(180deg, #7ec6c5, #d2df86);
+}
+.pokeCard_header_border-electric{
+    background: linear-gradient(180deg, #0c1395, #666ab5);
+}
+.pokeCard_header_border-psychic{
+    background: linear-gradient(180deg, #e52d2d, #ce7d7d);
+}
+.pokeCard_header_border-ice{
+    background: linear-gradient(180deg, #6fbedf, #a0bbc7);
+}
+.pokeCard_header_border-dragon{
+    background: linear-gradient(180deg, #478A93, #88bac1);
+}
+.pokeCard_header_border-dark{
+    background: linear-gradient(180deg, #030706, #122722);
+}
+.pokeCard_header_border-fairy{
+    background: linear-gradient(180deg, #971B45, #ad496a);
+}
+.pokeCard_header_border-unknown{
+    background: linear-gradient(180deg, #696767, #baafaf);
+}
+.pokeCard_header_border-shadow{
+    background: linear-gradient(180deg, #6c31a3, #b48adc);
+}
+
+/*syles of letters */
+
+.letter-normal{
+    color: #735259;
+}
+.letter-fighting{
+    color: #96402A;
+}
+.letter-flying{
+    color: #beb14c;
+}
+.letter-poison{
+    color: #5b3184;
+}
+.letter-ground{
+    color: #654008;
+}
+.letter-rock{
+    color: #7e7e7e;
+}
+.letter-bug{
+    color: #e74444;
+}
+.letter-ghost{
+    color: #323569;
+}
+.letter-steel{
+    color: #5e736c;
+}
+.letter-fire{
+    color: #d71c20;
+}
+.letter-water{
+    color: #07428c;
+}
+.letter-grass{
+    color: #a2d4ab;
+}
+.letter-electric{
+    color: #0c1395;
+}
+.letter-psychic{
+    color: #e52d2d;
+}
+.letter-ice{
+    color: #6fbedf;
+}
+.letter-dragon{
+    color: #478A93;
+}
+.letter-dark{
+    color: #030706;
+}
+.letter-fairy{
+    color: #971B45;
+}
+.letter-unknown{
+    color: #696767;
+}
+.letter-shadow{
+    color: #6c31a3;
+}
+

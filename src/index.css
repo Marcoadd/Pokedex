@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --color-red-text: #FE1936;
+    --color-red-btn: #D93F3F;
+    --color-red-poke:#DD1A1A;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+a{
+    font-family: inherit;
+    text-decoration: none;
+}
+input{
+    outline: none;
+}

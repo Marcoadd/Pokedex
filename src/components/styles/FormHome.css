@@ -1,0 +1,23 @@
+.home_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 1px 2px 5px #003;
+    border-radius: 7px;
+}
+.home_input{
+    border: none;
+    padding: 4px 0 4px 4px;
+   
+}
+.home_btn{
+    border: none;
+    padding: 10px 18px ;
+    background: var(--color-red-btn);
+    border-radius: 0 7px 7px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.home_btn:hover{
+    filter: brightness(1.5);
+}
